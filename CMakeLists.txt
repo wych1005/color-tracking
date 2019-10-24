@@ -144,8 +144,8 @@ include
 
 ## Declare a C++ executable
 
-add_executable(image_converting src/image_converter.cpp)
-target_link_libraries(image_converting ${catkin_LIBRARIES} ${OpenCV_LIBS})
+add_executable(image_converter src/image_converter.cpp)
+target_link_libraries(image_converter ${catkin_LIBRARIES} ${OpenCV_LIBS})
 
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
